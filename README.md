@@ -24,11 +24,11 @@ processes being checked, then the discrepency will be reported and the
 script will eventually exit with non-zero exit code.
 
 The specifications must be like one of the following:
-* <flag-name>=true : flag called <flag-name> must be set to true (e.g.,
+* \<flag-name\>=true : flag called \<flag-name\> must be set to true (e.g.,
 HeapDumpOnOutOfMemoryError=true)
-* <flag-name>=false : flag called <flag-name> must be set to false 
+* \<flag-name\>=false : flag called \<flag-name\> must be set to false 
 (e.g., PrintGC=false)
-* <flag-name>=<flag-value> : flag called <flag-name> must match the 
+* \<flag-name\>=\<flag-value\> : flag called \<flag-name\> must match the 
 given string value (e.g, HeapDumpPath=/var/log/storm)
 
 This script is written in bash and based on jps and jinfo.  Enhancements
